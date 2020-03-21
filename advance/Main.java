@@ -3,8 +3,8 @@ public class Main {
     private static LinkedList list = new LinkedList();
     public static void main(String[] args) {
 
-        list.insertDataBack(10);
-        list.insertDataBack(20);
+        list.insert(10);
+        list.insert(20);
         list.insert(-1);
         list.insert(-2);
         list.insert(-3);
